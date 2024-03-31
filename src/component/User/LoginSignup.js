@@ -47,7 +47,7 @@ const LoginSignUp = () => {
     const registerSubmit = (e) => {
         e.preventDefault();
         if (!avatar || !name || !email || !password) {
-            return toast.warninging('All values are required');
+            return toast.warning('All values are required');
         }
 
         if (password.length < 8) {
