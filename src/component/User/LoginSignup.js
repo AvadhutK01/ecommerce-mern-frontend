@@ -51,7 +51,7 @@ const LoginSignUp = () => {
         }
 
         if (password.length < 8) {
-            return toast.warninging('Password must be greater than 8 characters');
+            return toast.warning('Password must be greater than 8 characters');
         }
         const myForm = new FormData();
 
